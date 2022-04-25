@@ -1,0 +1,38 @@
+package advance.dev;
+
+import java.util.Scanner;
+
+public class Rectangle extends Shape implements IShape {
+
+	@Override
+	public void input() {
+		// TODO Auto-generated method stub
+		public void nhapChieuDai() {
+	        System.out.println("Chiều dài = ");
+	        Scanner sc = new Scanner(System.in);
+	        dai = sc.nextFloat();
+	    }
+	 
+	    public void nhapChieuRong() {
+	        System.out.println("Chiều rộng = ");
+	        Scanner sc = new Scanner(System.in);
+	        rong = sc.nextFloat();
+	    }
+	 
+	    public void tinhChuVi() {
+	        chuVi = 2 * (dai + rong);
+	    }
+	 
+	    public void tinhDienTich() {
+	        dienTich = dai * rong;
+	    }
+	}
+
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+}

@@ -1,0 +1,8 @@
+package advance.dev;
+
+public class Shape {
+	void chuVi() {
+	}
+	void dienTich() {
+	}
+}

@@ -1,0 +1,25 @@
+package advance.dev;
+
+import java.util.Scanner;
+
+public class Circle extends Shape implements IShape {
+	float bankinh;
+	
+	@Override
+	public void input() {
+		// TODO Auto-generated method stub
+			System.out.println("Bán kính: ");
+			Scanner sc = new Scanner(System.in);
+			bankinh = sc.nextFloat();
+		}
+		
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+}
+chuVi = (float) (2 * Math.PI * bankinh);
+dienTich = (float) (Math.PI * bankinh* bankinh);

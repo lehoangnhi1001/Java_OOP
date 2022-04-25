@@ -1,0 +1,6 @@
+package advance.dev;
+
+public interface Shape {
+	void input();
+	void print();
+}

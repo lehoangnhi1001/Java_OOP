@@ -1,0 +1,32 @@
+package advance.dev;
+
+import java.util.Scanner;
+
+public class Triangle extends Shape implements IShape {
+	float a;
+	float h;
+	@Override
+	public void input() {
+		// TODO Auto-generated method stub
+	
+		
+			System.out.println("Cạnh a: ");
+			Scanner sc = new Scanner(System.in);
+			a = sc.nextFloat();
+
+	
+			System.out.println("Chiều cao h: ");
+			Scanner sc1 = new Scanner(System.in);
+			h = sc1.nextFloat();
+		
+
+	}
+
+	@Override
+	public void print() {
+		// TODO Auto-generated method stub
+		chuVi = 3*a;
+		dienTich =(a*h)/2 ;
+	}
+
+}

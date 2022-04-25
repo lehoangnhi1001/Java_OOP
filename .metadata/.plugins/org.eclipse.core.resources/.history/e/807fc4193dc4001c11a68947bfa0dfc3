@@ -1,0 +1,15 @@
+package advance.dev;
+
+public class Shape {
+	String ten;
+	float chuVi;
+	float dienTich;
+	
+	void chuVi() {
+		System.out.println("Chu vi: " + chuVi);
+	}
+	
+	void dienTich() {
+		System.out.println("Diện tích: " + dienTich);
+	}
+}

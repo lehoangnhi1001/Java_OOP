@@ -1,0 +1,11 @@
+package advance.dev;
+
+public class Car extends Machine {
+
+	@Override
+	void fuel() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

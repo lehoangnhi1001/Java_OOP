@@ -1,0 +1,12 @@
+package advance.dev;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Triangle trg = new Triangle();
+		Circle crl = new Circle();
+		Rectangle rgl = new Rectangle();
+	}
+
+}

@@ -1,0 +1,7 @@
+package advance.dev;
+
+public interface Animal {
+	void eat();
+
+	a)Xây dıòng lõìp cõ sõÒtrıÌu tıõòngShape chıìa 2 phıõng thıìc trıÌu tıõòng-chuVi() : tiình chu vi cuÒa hiÌnh-dienTich(): tiình diêòn tiìch cuÒa hiÌnh
+}
